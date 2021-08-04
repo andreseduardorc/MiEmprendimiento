@@ -9937,8 +9937,180 @@ h3 {
   }
 }
 
+.titulo {
+  font-weight: 700;
+  font-family: "Poppins", sans-serif;
+  font-size: 20px;
+}
+
+.name {
+  font-size: 16px;
+  font-family: "Poppins", sans-serif;
+  font-weight: 700;
+}
+
+.left {
+  border: solid 1px;
+}
+.left__box {
+  border: 1px dotted #000;
+}
+.left__box__img {
+  width: 100%;
+}
+
+.right {
+  border: solid 1px;
+  margin: 0 10px;
+}
+.right__box__img {
+  border-radius: 50%;
+  width: 50%;
+}
+@media (min-width: 768px) {
+  .right__box__img {
+    width: 20%;
+  }
+}
+
+.right__box__text {
+  text-align: center;
+  margin: 0 15px;
+}
+.right__box__text__parrafo {
+  text-align: justify;
+}
+
+.two__title {
+  background-color: #2e1503;
+  text-align: center;
+  color: #fff;
+  font-weight: 700;
+  font-family: "Ubuntu", sans-serif;
+}
+
+.gif {
+  height: 16rem;
+}
+@media (min-width: 768px) {
+  .gif {
+    height: 22rem;
+    position: relative;
+    left: 5rem;
+  }
+}
+
+@media (min-width: 768px) {
+  .central {
+    justify-content: space-around;
+  }
+}
+
+.iconos {
+  padding: 5px;
+}
+
+footer {
+  background-color: #000;
+  color: #fff;
+  text-align: center;
+  padding: 2rem 0;
+  margin-top: 2rem;
+}
+@media (min-width: 768px) {
+  footer {
+    padding: 0;
+  }
+}
+
+.derechos__text {
+  padding: 0 2rem;
+}
+@media (min-width: 768px) {
+  .derechos__text {
+    text-align: left;
+    position: relative;
+    top: 2rem;
+  }
+}
+
+.anuncios {
+  display: grid;
+}
+@media (min-width: 768px) {
+  .anuncios {
+    display: flex;
+    justify-content: end;
+    padding-right: 8rem;
+  }
+}
+.anuncios__enlace {
+  color: #fff;
+}
+@media (min-width: 768px) {
+  .anuncios__enlace {
+    margin-right: 2rem;
+  }
+}
+
+.anuncios__enlace:hover {
+  color: #ffaf6d;
+}
+
+.form-inline {
+  justify-content: center;
+}
+
+.form-control {
+  margin: 0 4rem;
+}
+@media (min-width: 768px) {
+  .form-control {
+    position: relative;
+    bottom: 10px;
+  }
+}
+
+.form-control:hover {
+  background-color: #ffaf6d;
+}
+
 .barra {
   background-color: #000;
+}
+
+.icono {
+  color: #ffaf6d;
+}
+
+.icono:hover {
+  color: #fff;
+}
+
+.nav-link {
+  color: #fff;
+}
+
+.nav-link:hover {
+  color: #ffaf6d;
+}
+
+.boton {
+  background-color: #ffaf6d;
+  color: #fff;
+  margin-top: 10px;
+}
+@media (min-width: 768px) {
+  .boton {
+    position: relative;
+    right: 3rem;
+    bottom: 15px;
+  }
+}
+
+.boton:hover {
+  background-color: #fff;
+  color: #000;
 }
 
 /*# sourceMappingURL=style.css.map */

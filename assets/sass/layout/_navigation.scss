@@ -1,3 +1,19 @@
 .barra {
     background-color: $black;
 }
+
+.icono {
+    color: $tangerine;
+}
+
+.icono:hover {
+    color: $white;
+}
+
+.nav-link {
+    color: $white;
+}
+
+.nav-link:hover {
+    color: $tangerine;
+}

@@ -17,10 +17,14 @@
 
 <body>
 
-    <nav class="navbar navbar-expand-lg " style="background-color:#000">
+    <nav class="navbar navbar-expand-lg barra ">
         <img src="./assets/img/logo.svg" width="30px" height="30px" alt="">
-        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
-          <span class="navbar-toggler-icon"></span>
+        <button class="navbar-toggler " type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon">   
+                <i class="fas fa-bars icono" ; font-size:28px;"></i>
+            </span>
+            
+            
         </button>
 
         <div class="collapse navbar-collapse" id="navbarSupportedContent">
@@ -42,60 +46,100 @@
         <img src="./assets/img/desarrolloweb2021t.svg" alt="">
 
     </header>
-    <div>
-        <div class="left">
-            <div>
-                <div>
-                    <img src="./assets/img/html-y-cssb-.jpg" alt="http-css">
+    <main class="container-flush">
+        <div class="row central">
+            <div class="left  col-md-5 ">
+                <div class="left__box ">
+                    <div class="text-center my-4 ">
+                        <img class="left__box__img" src="./assets/img/html-y-cssb-.jpg" alt="http-css">
+                    </div>
+                    <p class="titulo">HTML y CSS para principiantes</p>
+                    <p class="left__box__text">HTML y CSS son dos herramientas importantes para dar inicio en el mundo del desarrollo web, por lo tanto, en este curso aprenderas todo sobre HTML y CSS, desde lo mas basico hasta un nivel intermedio, logrando desarrollar tu primera
+                        pagina web responsiva, sin la necesidad de aplicar librerias externas para CSS.</p>
+                    <p class="name">instructor: Manuel Gonzalez</p>
+
+                    <i class="far fa-thumbs-up iconos">1</i>
+                    <i class="far fa-comments iconos">9</i>
+                    <i class="far fa-eye iconos">9</i>
+                    <i class="fas fa-share-alt iconos">0</i>
+
                 </div>
-                <h2>HTML y CSS para principiantes</h2>
-                <p>HTML y CSS son dos herramientas importantes para dar inicio en el mundo del desarrollo web, por lo tanto, en este curso aprenderas todo sobre HTML y CSS, desde lo mas basico hasta un nivel intermedio, logrando desarrollar tu primera pagina
-                    web responsiva, sin la necesidad de aplicar librerias externas para CSS.</p>
-                <h4>instructor: Manuel Gonzalez</h4>
-                <i class="far fa-thumbs-up">1</i>
-                <i class="far fa-comments">9</i>
-                <i class="far fa-eye">9</i>
-                <i class="fas fa-share-alt">0</i>
-
-            </div>
-            <div>
-                <div>
-                    <img src="./assets/img/sass.png" alt="sass">
+                <div class="left__box my-4   col-sm-12">
+                    <div class="text-center my-4">
+                        <img class="left__box__img" src="./assets/img/sass.png" alt="sass">
+                    </div>
+                    <p class="titulo">Estilos con SASS</p>
+                    <p class="left__box__text ">SASS es una herramienta importante hoy en dia para todo desarrollador web, ya que permite crear estilos mas ordenados, eficientes y con menos lineas de codigo. por ello, en este curso aprenderas todo lo necesario para crear hojas de
+                        estilos desde la sintaxis de SCSS, implementando tecnicas propias de SASS.</p>
+                    <p class="name">instructor: Manuel Gonzalez</p>
+                    <div class="iconos">
+                        <i class="far fa-thumbs-up iconos">1</i>
+                        <i class="far fa-comments iconos">9</i>
+                        <i class="far fa-eye iconos">8</i>
+                        <i class="fas fa-share-alt iconos">5</i>
+                    </div>
                 </div>
-                <h2>Estilos con SASS</h2>
-                <p>SASS es una herramienta importante hoy en dia para todo desarrollador web, ya que permite crear estilos mas ordenados, eficientes y con menos lineas de codigo. por ello, en este curso aprenderas todo lo necesario para crear hojas de estilos
-                    desde la sintaxis de SCSS, implementando tecnicas propias de SASS.</p>
-                <h4>instructor: Manuel Gonzalez</h4>
-                <i class="far fa-thumbs-up">1</i>
-                <i class="far fa-comments">9</i>
-                <i class="far fa-eye">8</i>
-                <i class="fas fa-share-alt">5</i>
+            </div>
+            <div class="right   col-md-5">
+                <div class="right__box my-5 ">
+
+                    <div class="my-5 text-center">
+                        <img class="right__box__img" src="./assets/img/web-development.png" alt="programador">
+                    </div>
+                    <div class="right__box__text">
+                        <p class="titulo">CURSOS 2020 LTDA</p>
+                        <div class="iconos">
+                            <i class="fab fa-facebook-f iconos"></i>
+                            <i class="fab fa-twitter iconos"></i>
+                            <i class="fab fa-github iconos"></i>
+                        </div>
+                        <p class="right__box__text__parrafo">Cursos 2020 Ltda, es una empresa especialista en capacitaciones de personal de desarrollo web. partiendo desde lo mas basico de HTML y CSS, hasta lo mas complejo con SASS y JavaScript, igualmente se ofrecen cursos mas especializados
+                            para el BackEnd, implementacion de frameworks para el frontEnd, entre otros.</p>
+                    </div>
+
+                </div>
+                <div class="two mb-5   col-sm-12 ">
+                    <p class="titulo">Mas Cursos</p>
+                    <div class="two__title__list">
+                        <ul class="right__title__list__enlaces">
+                            <li><a href="#">Analítica Web (3)</a></li>
+                            <li><a href="#">Diseño Web (4)</a></li>
+                            <li><a href="#">Desarrollo BackEnd (9)</a></li>
+                            <li><a href="#">Seguridad Informática(14)</a></li>
+                            <li><a href="#">Social Media (7)</a></li>
+                            <li><a href="#">SEO (8)</a></li>
+                            <li><a href="#">UI/UX (3)</a></li>
+                            <li><a href="#">JavaScript (5)</a></li>
+                            <li><a href="#">VueJS (1)</a></li>
+                        </ul>
+
+
+
+                    </div>
+
+                    <div>
+                        <img class="gif" src="./assets/img/gitAnimacion.gif" alt="">
+                    </div>
+                </div>
             </div>
         </div>
+    </main>
+    <footer>
 
-        <div class="right">
-            <div>
-                <img src="./assets/img/web-development.png" alt="programador">
-            </div>
-            <h2>CURSOS 202O LTDA</h2>
-            <i class="fab fa-facebook-f"></i>
-            <i class="fab fa-twitter"></i>
-            <i class="fab fa-github"></i>
-            <p>Cursos 2020 Ltda, es una empresa especialista en capacitaciones de personal de desarrollo web. partiendo desde lo mas basico de HTML y CSS, hasta lo mas complejo con SASS y JavaScript, igualmente se ofrecen cursos mas especializados para el
-                BackEnd, implementacion de frameworks para el frontEnd, entre otros.</p>
+        <div class="derechos">
 
+            <p class="derechos__text"> <i class="far fa-copyright"></i> 2021 | Todos los derechos reservados.</p>
+        </div>
+        <div class="anuncios">
+            <a class="anuncios__enlace" href="#">Legal </a>
+            <a class="anuncios__enlace" href="#">Sobre Anuncios</a>
+            <form class="form-inline my-2 my-lg-0">
+                <input class="form-control" type="search" placeholder="e-mail" aria-label="Search">
+                <button class=" boton" type="Enviar">Enviar</button>
+            </form>
         </div>
 
-        <h2>Mas Cursos</h2>
-        <div>
-            <img src="./assets/img/web.svg" alt="">
-        </div>
-
-        <div>
-            <img src="./assets/img/gitAnimacion.gif" alt="">
-        </div>
-
-    </div>
+    </footer>
 
 
 
