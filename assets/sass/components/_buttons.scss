@@ -1,12 +1,8 @@
     .boton {
         background-color: $tangerine;
         color: $white;
-        margin-top: 10px;
-        @media (min-width: 768px) {
-            position: relative;
-            right: 3rem;
-            bottom: 15px;
-        }
+        border-radius: 5px;
+        padding: 5px 10px;
     }
     
     .boton:hover {
